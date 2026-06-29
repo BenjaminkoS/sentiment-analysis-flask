@@ -13,9 +13,9 @@ A web application for Twitter sentiment analysis powered by a machine learning m
 - CountVectorizer (max_features=5000)
 - PorterStemmer for text preprocessing
 
-## How to Run
+## Installation
 ```bash
-pip install flask scikit-learn nltk
+pip install -r requirements.txt
 python app.py
 ```
 Open http://127.0.0.1:5000 in your browser.
